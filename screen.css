@@ -27,11 +27,19 @@ color:#FFFFFF;
 p {
 color: rgb(255,228,225);
 font-size: 1.22em;
+padding-bottom: 100px;/* this is the space under my life is building here */
 }
 
 a {
-text-decoration: none;
-color: #faf616;
+font-size: 1.1em;
+text-decoration: bold;
+color: #001a4d; /* this is the yellow of the link bottons, change it */
+}
+
+b {
+font-size: 1.1em;
+text-decoration: bold;
+color: #ffffff; /* this is the yellow of the link bottons, change it */
 }
 
 #container{
@@ -45,8 +53,10 @@ width: 820px;
 
 .navigation li{
 display: inline;
-color:#f5ea90;
-background-color:#666;
+color:#FFFFF0;
+background-color:#B0C4DE; /* this is the button background color grey, change it */
 padding: 5px 15px 5px 15px;
 list-style: none;
 }
+
+/* add statement */
