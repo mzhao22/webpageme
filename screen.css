@@ -14,6 +14,7 @@ body {
 
 h1 {
 color:#ADD8E6;
+padding-top: 2em;
 }
 
 h2 {
@@ -33,7 +34,9 @@ padding-bottom: 100px;/* this is the space under my life is building here */
 a {
 font-size: 1.1em;
 text-decoration: bold;
-color: #001a4d; /* this is the yellow of the link bottons, change it */
+color: #ff9999;
+line-height: 1.6em;
+ /* this is the yellow of the link bottons, change it */
 }
 
 b {
@@ -55,8 +58,18 @@ width: 900px;
 display: inline;
 color:#FFFFF0;
 background-color:#B0C4DE; /* this is the button background color grey, change it */
-padding: 5px 15px 5px 15px;
+padding: 5px 20px 5px 20px;
 list-style: none;
+}
+
+.navigation {
+  padding-top: 1.5em;
+}
+
+.navigation a {
+font-size: 1.1em;
+text-decoration: bold;
+color: #001a4d; /* this is the yellow of the link bottons, change it */
 }
 
 /* add statement */
