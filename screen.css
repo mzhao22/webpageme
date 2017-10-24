@@ -78,3 +78,10 @@ color: #FFFFFF; /* this is the yellow of the link bottons, change it */
     border-radius: 50%;
 }
 /* add statement */
+
+@media screen and (min-width: 1185px) {
+  body {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
