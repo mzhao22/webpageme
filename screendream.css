@@ -13,10 +13,12 @@ body {
    background-image: url("image/background.gif");}
 
 h1 {
-font-family: Courier;
-color:#FFD9D9;
+font-family: serif;
+color:#ccd9ff;
 padding-top: 2em;
-font-size: 1.6em;
+font-size: 1.3em;
+text-decoration: none;
+text-align: center;
 }
 
 h2 {
@@ -33,7 +35,7 @@ color:#FFFFFF;
 
 
 p {
-color: rgb(255,228,225);
+color: #ccd9ff;
 font-family: Courier;
 font-size: 1em;
 line-height: 0.6em;
@@ -46,7 +48,6 @@ text-decoration: bold;
 color: #ff9999; /* this is the yellow of the link bottons, change it */
 line-height: 1.6em;
 }
-
 
 #container{
 background-color:#000000;
@@ -63,7 +64,7 @@ width: 900px;
 .navigation li{
 display: inline;
 color:#FFFFF0;
-background-color:#260000; /* this is the button background color grey, change it */
+background-color:#00134d; /* this is the button background color grey, change it */
 padding: 5px 20px 5px 20px;
 list-style: none;
 }
@@ -71,6 +72,7 @@ list-style: none;
 .navigation a {
 font-size: 1.1em;
 text-decoration: bold;
+text-align: center;
 color: #FFFFFF; /* this is the yellow of the link bottons, change it */
 }
 
