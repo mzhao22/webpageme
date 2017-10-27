@@ -1,3 +1,8 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 
 head {
 
@@ -77,11 +82,57 @@ color: #FFFFFF; /* this is the yellow of the link bottons, change it */
 .img-circle {
     border-radius: 50%;
 }
+
 /* add statement */
 
-@media screen and (min-width: 1185px) {
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 1em;
+  }
+  p {
+    line-height: 1.222em;
+  }
+  #container {
+    width: 200px;
+    margin: 5px auto;
+  }
+  ul  {
+    font-size: 0.8em;
+  }
+  h1 {
+    font-size: 1em;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 1em;
+  }
+  p {
+    line-height: 1.222em;
+  }
+  #container {
+    width: 400px;
+    margin: 5px;
+  }
   body {
-    padding-right: 0%;
-    padding-left: 0%;
+    padding-left: 7.33333%
+    padding-right:7.33333%
+     background-image: url("image/background.gif");}
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    padding-left: 16.66666%; /* 150 / 900 = .1666666 */
+    padding-right: 16.66666%; /* 150 / 900 = .1666666 */
   }
 }
