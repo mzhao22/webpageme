@@ -121,6 +121,7 @@ padding: 5px 20px 5px 20px;
 list-style: none;
 }
 
+
 #education .section {
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
@@ -189,16 +190,20 @@ list-style: none;
     width: 100px;
     height: 100px;
   }
+
+#education .section {
+  padding: 15px 0 0;
 }
 
+#education .main {
+  padding: 0 25px;
+}
+}
 
 @media screen and (min-width: 420px) {
   html {
     font-size: 1em;
     border-width: medium;
-  }
-  p {
-    line-height: 1.222em;
   }
   ul.li  {
     font-size: 1em;
@@ -213,16 +218,6 @@ list-style: none;
 }
 
 
-@media screen and (min-width: 480px) {
-  img {
-    width: 300px;
-  }
-  img.img-circle {
-    width: 150px;
-    height: 150px;
-  }
-}
-
 @media screen and (min-width: 600px) {
   img {
     width: 450px;
@@ -234,27 +229,12 @@ list-style: none;
 }
 
 
-@media screen and (min-width: 750px) {
-  img {
-    width: 550px;
-  }
-  img.img-circle {
-    width: 200px;
-    height: 200px;
-  }
-}
-
 @media screen and (min-width: 900px) {
   img {
     width: 650px;
   }
 }
 
-@media screen and (min-width: 1100px) {
-  img {
-    width: 720px;
-  }
-}
 
 @media screen and (min-width: 1300px) {
   img {
