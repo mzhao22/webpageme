@@ -32,7 +32,6 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   font-size: 1.125em; /* 18 / 16 = 1.25 */
   line-height: 1.22222em; /* 22 / 18 = 1.22222 */
   font-family: "Futus", "Georgia", serif;
@@ -65,17 +64,28 @@ h2 {
 }
 
 h3 {
-color:#FFFFFF;
+  padding-top: 1.22222em;
+  padding-bottom: 2em;
+  color:#FFFFFF;
+  font-size: 1.3em;
+  line-height: 1em;
 }
 
+h4 {
+  padding-top: 1.22222em;
+  padding-bottom: 1.2em;
+  color:#FFFFFF;
+  font-size: 1.3em;
+  line-height: 1em;
+}
 
 p {
-color: rgb(255,228,225);
+color: #FFFFFF;
 font-family: Courier;
 font-size: 1em;
 line-height: 0.6em;
 padding-top: 1.2em;
-padding-bottom: 1.2px; /*this is the space under my life is building here */
+padding-bottom: 1.2em; /*this is the space under my life is building here */
 }
 
 a {
@@ -85,28 +95,20 @@ color: #ff9999; /* this is the yellow of the link bottons, change it */
 line-height: 1.6em;
 }
 
-
-#container {
-background-color:#000000;
-padding-bottom: 6em;
-}
-
 .navigation {
   padding-top: 1.5em;
+}
+
+.navigation a {
+font-size: 1.1em;
+text-decoration: bold;
+color: #FFFFFF;
 }
 
 #index .navigation li{
 display: inline;
 color:#FFFFF0;
 background-color:#260000; /* this is the button background color */
-padding: 5px 20px 5px 20px;
-list-style: none;
-}
-
-#professional .navigation li{
-display: inline;
-color:#000000;
-background-color:#ff9900;
 padding: 5px 20px 5px 20px;
 list-style: none;
 }
@@ -119,6 +121,31 @@ padding: 5px 20px 5px 20px;
 list-style: none;
 }
 
+
+#education .section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+#education .sectionTitle {
+	float: left;
+	width: 45%;
+}
+
+#education .sectionContent {
+	float: right;
+	width: 45.5%;
+}
+
+
+#professional .navigation li{
+display: inline;
+color:#000000;
+background-color:#ff9900;
+padding: 5px 20px 5px 20px;
+list-style: none;
+}
+
 #dreams .navigation li{
 display: inline;
 color:#000000;
@@ -127,21 +154,18 @@ padding: 5px 20px 5px 20px;
 list-style: none;
 }
 
-.navigation a {
-font-size: 1.1em;
-text-decoration: bold;
-color: #FFFFFF;
-}
+.clear {clear: both;}
 
 .img-circle {
     border-radius: 50%;
 }
 
-#footer {
+.footer {
+  text-align: center;
   padding-top: 10em;
 }
 
-/* add statement */
+/* ----- add statement ------*/
 
 @media screen and (min-width: 320px) {
   html {
@@ -149,10 +173,6 @@ color: #FFFFFF;
   }
   p {
     line-height: 1.222em;
-  }
-  #container {
-    width: 180px;
-    margin: 5px auto;
   }
   ul  {
     font-size: 0.8em;
@@ -170,20 +190,20 @@ color: #FFFFFF;
     width: 100px;
     height: 100px;
   }
+
+#education .section {
+  padding: 15px 0 0;
 }
 
+#education .main {
+  padding: 0 25px;
+}
+}
 
 @media screen and (min-width: 420px) {
   html {
     font-size: 1em;
     border-width: medium;
-  }
-  p {
-    line-height: 1.222em;
-  }
-  #container {
-    width: 260px;
-    margin: 20px auto;
   }
   ul.li  {
     font-size: 1em;
@@ -198,25 +218,7 @@ color: #FFFFFF;
 }
 
 
-@media screen and (min-width: 480px) {
-  #container {
-    width: 300px;
-    margin: 20px auto;
-  }
-  img {
-    width: 300px;
-  }
-  img.img-circle {
-    width: 150px;
-    height: 150px;
-  }
-}
-
 @media screen and (min-width: 600px) {
-  #container {
-    width: 450px;
-    margin: 20px auto;
-  }
   img {
     width: 450px;
   }
@@ -227,45 +229,14 @@ color: #FFFFFF;
 }
 
 
-@media screen and (min-width: 750px) {
-  #container {
-    width: 550px;
-    margin: 20px auto;
-  }
-  img {
-    width: 550px;
-  }
-  img.img-circle {
-    width: 200px;
-    height: 200px;
-  }
-}
-
 @media screen and (min-width: 900px) {
-  #container {
-    width: 650px;
-    margin: 20px auto;
-  }
   img {
     width: 650px;
   }
 }
 
-@media screen and (min-width: 1100px) {
-  #container {
-    width: 720px;
-    margin: 20px auto;
-  }
-  img {
-    width: 720px;
-  }
-}
 
 @media screen and (min-width: 1300px) {
-  #container {
-    width: 1000px;
-    margin: 100px auto;
-  }
   img {
     width: 800px;
   }
