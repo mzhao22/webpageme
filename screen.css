@@ -193,11 +193,11 @@ list-style: none;
 
 #education .section {
   padding: 15px 0 0;
-}
+  }
 
 #education .main {
   padding: 0 25px;
-}
+  }
 }
 
 @media screen and (min-width: 420px) {
@@ -227,7 +227,6 @@ list-style: none;
     height: 180px;
   }
 }
-
 
 @media screen and (min-width: 900px) {
   img {
