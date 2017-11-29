@@ -66,7 +66,11 @@ h2 {
 h3 {
   padding-top: 1.22222em;
   padding-bottom: 2em;
+<<<<<<< HEAD
   color:#e6ff99;
+=======
+  color:#84e184;
+>>>>>>> 1c02bcc3027e75769a96356199a3198fa354f809
   font-size: 1.3em;
   line-height: 1em;
 }
@@ -74,6 +78,7 @@ h3 {
 h4 {
   padding-top: 1.22222em;
   padding-bottom: 1.2em;
+<<<<<<< HEAD
   color:#e6ff99;
   font-size: 1.3em;
   line-height: 1em;
@@ -83,6 +88,9 @@ h5 {
   padding-top: 1.22222em;
   padding-bottom: 1.2em;
   color:#ffdd99;
+=======
+  color:#ffb84d;
+>>>>>>> 1c02bcc3027e75769a96356199a3198fa354f809
   font-size: 1.3em;
   line-height: 1em;
 }
@@ -136,7 +144,11 @@ list-style: none;
 
 #education .sectionContent {
 	float: right;
+<<<<<<< HEAD
 	width: 50%;
+=======
+	width: 49.5%;
+>>>>>>> 1c02bcc3027e75769a96356199a3198fa354f809
 }
 
 #professional .navigation li{
@@ -194,11 +206,11 @@ list-style: none;
 
 #education .section {
   padding: 15px 0 0;
-}
+  }
 
 #education .main {
   padding: 0 25px;
-}
+  }
 }
 
 @media screen and (min-width: 420px) {
@@ -228,7 +240,6 @@ list-style: none;
     height: 180px;
   }
 }
-
 
 @media screen and (min-width: 900px) {
   img {
