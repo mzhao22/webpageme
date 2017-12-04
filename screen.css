@@ -111,18 +111,19 @@ color: #FFFFFF;
 display: inline;
 color:#FFFFF0;
 background-color:#260000; /* this is the button background color */
-padding: 5px 20px 5px 20px;
+padding: 5px 50px 5px 50px;
 list-style: none;
 }
+
+/* ----------- education page ---------*/
 
 #education .navigation li{
 display: inline;
 color:#000000;
 background-color:#408000;
-padding: 5px 20px 5px 20px;
+padding: 5px 50px 5px 50px;
 list-style: none;
 }
-
 
 #education .section {
 	border-top: 1px solid #dedede;
@@ -131,28 +132,50 @@ list-style: none;
 
 #education .sectionTitle {
 	float: left;
-	width: 50%;
+  text-align: right;
+	width: 42%;
 }
 
 #education .sectionContent {
 	float: right;
-	width: 49.5%;
+  text-align: left;
+	width: 43.5%;
 }
 
+/* ----------- professional page ---------*/
 
 #professional .navigation li{
 display: inline;
 color:#000000;
 background-color:#ff9900;
-padding: 5px 20px 5px 20px;
+padding: 5px 50px 5px 50px;
 list-style: none;
 }
+
+#professional .section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+#professional .sectionTitle {
+	float: left;
+  text-align: right;
+	width: 42%;
+}
+
+#professional .sectionContent {
+	float: right;
+  text-align: left;
+	width: 43.5%;
+}
+
+/* ----------- dreams page ---------*/
 
 #dreams .navigation li{
 display: inline;
 color:#000000;
 background-color:#24478f;
-padding: 5px 20px 5px 20px;
+padding: 5px 50px 5px 50px;
 list-style: none;
 }
 
@@ -188,7 +211,7 @@ list-style: none;
     line-height: 1.222em;
   }
   ul  {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   ul.li {
     text-align: center;
@@ -205,16 +228,6 @@ list-style: none;
     width: 100px;
     height: 100px;
   }
-
-
-#education .section {
-  padding: 15px 0 0;
-  }
-
-#education .main {
-  padding: 0 25px;
-  }
-}
 
 
 
