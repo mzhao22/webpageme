@@ -54,6 +54,7 @@ color:#FFD9D9;
 padding-top: 2em;
 padding-bottom: 2em;
 font-size: 1.4em;
+font-weight: bold;
 }
 
 h2 {
@@ -69,6 +70,7 @@ h3 {
   padding-bottom: 2em;
   color:#84e184;
   font-size: 1.3em;
+  font-weight: bold;
   line-height: 1em;
 }
 
@@ -77,13 +79,14 @@ h4 {
   padding-bottom: 1.2em;
   color:#ffb84d;
   font-size: 1.3em;
+  font-weight: bold;
   line-height: 1em;
 }
 
 p {
 color: #FFFFFF;
-font-family: effra;
-font-size: 1em;
+font-family: serif;
+font-size: 1.1em;
 line-height: 0.6em;
 padding-top: 1.2em;
 padding-bottom: 1.2em; /*this is the space under my life is building here */
